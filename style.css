@@ -55,7 +55,17 @@ p{
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #98c4ea;
-  
+}
+
+.container-fluid.works img:hover {
+    -webkit-box-shadow: 6px 7px 65px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 65px -20px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 65px -20px rgba(0,0,0,0.75);
+    transition: .5s;
+}
+
+.container-fluid.works img{
+  margin-bottom: 5px
 }
 
 .stats{
