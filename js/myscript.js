@@ -18,3 +18,14 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 <!--End of Tawk.to Script-->
+
+
+$(document).ready(function(){
+  $('.slider').slick({
+    dots: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000
+  });
+});
