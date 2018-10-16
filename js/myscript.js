@@ -1,13 +1,4 @@
-$(document).ready(function() {
-   $('[data-toggle="popover"]').popover({
-      placement: 'top',
-      trigger: 'hover'
-   });
-});
-
-
-
-<!--Start of Tawk.to Script-->
+// Start of Tawk.to Script
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -17,7 +8,7 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
-<!--End of Tawk.to Script-->
+// End of Tawk.to Script
 
 
 // Slick Slider
@@ -31,10 +22,13 @@ $(document).ready(function(){
   });
 });
 
-
+// counter up section
 $(document).ready(function($) {
     $(".counterup-text span").counterUp({
         delay: 2,
         time: 1000
     });
 });
+
+// parallax window
+$('.parallax-window').parallax({imageSrc: '/images/counter.jpg'});

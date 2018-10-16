@@ -19,16 +19,30 @@ p{
   max-width: 80px;
 }
 
+.navbar {
+    -webkit-box-shadow: 0px -22px 119px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -22px 119px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px -22px 45px 10px rgba(0,0,0,0.75);
+}
+
 .navbar .btn {
       padding: 5px 35px;
       border: 2px solid #000;
       margin-left: 60px;
 }
 
+@media (max-width: 414px){
+.navbar .btn {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+
 .heading{
   font-size: 80px;
   padding-bottom: 20px;
-  text-shadow: 6px 6px 2px #1C6EA4;
+  text-shadow: 4px 2px 7px #1C6EA4;
 }
 
 @media (max-width:979px){
@@ -98,7 +112,7 @@ p{
   padding-bottom: 100px;
   background:linear-gradient(rgba(255, 255, 255, 0.9),#d5e7f1d1), url(/images/bg4.jpg);
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .statbox p{
@@ -146,4 +160,32 @@ span.text-info.percentage {
 
 .slick-dots li button:before{
   font-size: 20px !important;
+}
+
+.counter{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-attachment: scroll;
+  color: #fff;
+}
+
+.counter i {
+    font-size: 35px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.counter h3 {
+    font-size: 80px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    color: #98c4ea;
+}
+
+.counter p{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
