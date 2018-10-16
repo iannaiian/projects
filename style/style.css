@@ -19,10 +19,28 @@ p{
   max-width: 80px;
 }
 
+.navbar .btn {
+      padding: 5px 35px;
+      border: 2px solid #000;
+      margin-left: 60px;
+}
+
 .heading{
   font-size: 80px;
   padding-bottom: 20px;
   text-shadow: 6px 6px 2px #1C6EA4;
+}
+
+@media (max-width:979px){
+.heading{
+  font-size: 50px;
+}
+}
+
+@media (max-width:979px){
+#companyname{
+  font-size: 70px;
+}
 }
 
 .brandstamp h1 {
@@ -40,8 +58,15 @@ p{
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 
+.brandstamp .btn {
+    padding: 5px 35px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 20px !important;
+}
+
 .profpic{
-  max-width: 350px;
+  max-width: 320px;
   padding-top: 20px;
   padding-bottom: 50px;
 }
@@ -71,7 +96,7 @@ p{
 .stats{
   padding-top: 100px;
   padding-bottom: 100px;
-  background:linear-gradient(rgba(255, 255, 255, 0.9),#d5e7f1d1), url('Images/bg4.jpg');
+  background:linear-gradient(rgba(255, 255, 255, 0.9),#d5e7f1d1), url(/images/bg4.jpg);
   background-size: cover;
   background-attachment: fixed;
 }

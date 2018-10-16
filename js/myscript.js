@@ -30,3 +30,11 @@ $(document).ready(function(){
     autoplaySpeed: 3000
   });
 });
+
+
+$(document).ready(function($) {
+    $(".counterup-text span").counterUp({
+        delay: 2,
+        time: 1000
+    });
+});
