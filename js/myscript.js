@@ -32,3 +32,22 @@ $(document).ready(function($) {
 
 // parallax window
 $('.parallax-window').parallax({imageSrc: '/images/counter.jpg'});
+
+
+// Smooth scroll anchor
+var $root = $('html, body');
+
+$(document).ready(function($) {
+$('a[href^="#"]').click(function () {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 1000);
+
+    return false;
+  });
+});
+
+// for wow.js
+$(document).ready(function($) {
+  new WOW().init();
+});
